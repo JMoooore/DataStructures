@@ -20,3 +20,14 @@ class Queue {
         return this.queue.length
     }
 }
+
+const queue = new Queue()
+
+queue.enqueue('one')
+queue.enqueue('two')
+queue.enqueue('three')
+queue.enqueue('four')
+
+console.log(queue.dequeue())
+console.log(queue.size());
+console.log(queue)
